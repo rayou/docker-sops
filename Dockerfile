@@ -1,5 +1,4 @@
 FROM alpine:3.7
-ENV SOPS_VERSION 3.0.2
 RUN apk update && apk add --no-cache ca-certificates
 RUN wget -q https://github.com/mozilla/sops/releases/download/$SOPS_VERSION/sops-$SOPS_VERSION.linux -O /usr/local/bin/sops \
     && chmod 0755 /usr/local/bin/sops \
