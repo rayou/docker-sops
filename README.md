@@ -1,10 +1,10 @@
 # sops
-Mozilla sops docker image for just 10mb.
+Mozilla sops docker image for less than 30mb.
 
 # Build
 ```bash
-$ docker build --build-arg SOPS_VERSION=$SOPS_VERSION -t sops .
-# docker build --build-arg SOPS_VERSION=3.0.2 -t sops .
+$ docker build --build-arg VERSION=$SOPS_VERSION -t sops .
+# docker build --build-arg VERSION=3.0.2 -t sops .
 ```
 
 # Usage
