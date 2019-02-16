@@ -1,5 +1,20 @@
+[github]: https://github.com/rayou/sops
+[app-github]: https://github.com/mozilla/sops
+[microbadger]: https://microbadger.com/images/rayou/sops
+[dockerstore]: https://hub.docker.com/r/rayou/sops
+[donation]: https://donorbox.org/rayou?amount=10
+
 # sops
-Mozilla sops docker image for less than 30mb.
+[![](https://images.microbadger.com/badges/image/rayou/sops.svg)][microbadger] [![](https://images.microbadger.com/badges/version/rayou/sops.svg)][microbadger] [![](https://img.shields.io/docker/stars/rayou/sops.svg)][dockerstore] [![](https://img.shields.io/badge/Donate-Donorbox-green.svg)][donation]
+
+Mozilla sops docker image for less than 10mb.
+
+Docker image of [sops][app-github].
+
+Repository name in Docker Hub: [rayou/sops][dockerstore]
+
+Repository name in Github: [rayou/sops][github]
+
 
 # Build
 ```bash
@@ -18,3 +33,22 @@ $ docker run --rm -it rayou/sops:latest --help
 ```bash
 $ docker run --rm -it --entrypoint=/bin/sh rayou/sops:latest
 ```
+
+# Documentation
+- https://github.com/mozilla/sops#usage
+
+# Contributing
+
+PRs are welcome.
+
+# Author
+
+Ray Ou - yuhung.ou@live.com
+
+# Donation
+
+[![](https://d1iczxrky3cnb2.cloudfront.net/button-small-green.png)][donation]
+
+# License
+
+MIT.
