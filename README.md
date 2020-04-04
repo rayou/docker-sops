@@ -4,6 +4,7 @@
 [donation]: https://donorbox.org/rayou?amount=10
 
 # sops
+
 [![](https://img.shields.io/docker/image-size/rayou/sops?sort=semver)][dockerstore] [![](https://img.shields.io/docker/v/rayou/sops?sort=semver)][dockerstore] [![](https://img.shields.io/docker/stars/rayou/sops.svg)][dockerstore] [![](https://img.shields.io/badge/Donate-Donorbox-green.svg)][donation]
 
 Mozilla sops docker image for less than 10mb.
@@ -14,8 +15,8 @@ Repository name in Docker Hub: [rayou/sops][dockerstore]
 
 Repository name in Github: [rayou/sops][github]
 
-
 # Build
+
 ```bash
 $ docker build --build-arg VERSION=$SOPS_VERSION -t sops .
 # docker build --build-arg VERSION=3.0.2 -t sops .
@@ -24,16 +25,19 @@ $ docker build --build-arg VERSION=$SOPS_VERSION -t sops .
 # Usage
 
 ### Run `sops` directly
+
 ```bash
 $ docker run --rm -it rayou/sops:latest --help
 ```
 
 ### Run shell
+
 ```bash
 $ docker run --rm -it --entrypoint=/bin/sh rayou/sops:latest
 ```
 
 # Documentation
+
 - https://github.com/mozilla/sops#usage
 
 # Contributing
