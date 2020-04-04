@@ -1,4 +1,4 @@
-[github]: https://github.com/rayou/sops
+[github]: https://github.com/rayou/docker-sops
 [app-github]: https://github.com/mozilla/sops
 [dockerstore]: https://hub.docker.com/r/rayou/sops
 [donation]: https://donorbox.org/rayou?amount=10
@@ -13,7 +13,7 @@ Docker image of [sops][app-github].
 
 Repository name in Docker Hub: [rayou/sops][dockerstore]
 
-Repository name in Github: [rayou/sops][github]
+Repository name in Github: [rayou/docker-sops][github]
 
 # Build
 
