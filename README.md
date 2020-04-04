@@ -1,11 +1,10 @@
 [github]: https://github.com/rayou/sops
 [app-github]: https://github.com/mozilla/sops
-[microbadger]: https://microbadger.com/images/rayou/sops
 [dockerstore]: https://hub.docker.com/r/rayou/sops
 [donation]: https://donorbox.org/rayou?amount=10
 
 # sops
-[![](https://images.microbadger.com/badges/image/rayou/sops.svg)][microbadger] [![](https://images.microbadger.com/badges/version/rayou/sops.svg)][microbadger] [![](https://img.shields.io/docker/stars/rayou/sops.svg)][dockerstore] [![](https://img.shields.io/badge/Donate-Donorbox-green.svg)][donation]
+[![](https://img.shields.io/docker/image-size/rayou/sops?sort=semver)][dockerstore] [![](https://img.shields.io/docker/v/rayou/sops?sort=semver)][dockerstore] [![](https://img.shields.io/docker/stars/rayou/sops.svg)][dockerstore] [![](https://img.shields.io/badge/Donate-Donorbox-green.svg)][donation]
 
 Mozilla sops docker image for less than 10mb.
 
