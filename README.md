@@ -1,5 +1,5 @@
 [github]: https://github.com/rayou/docker-sops
-[app-github]: https://github.com/mozilla/sops
+[app-github]: https://github.com/getsops/sops
 [dockerstore]: https://hub.docker.com/r/rayou/sops
 [donation]: https://www.buymeacoffee.com/rayou
 
